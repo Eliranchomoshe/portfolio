@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+  display: block;
+}
+
+#mobile {
+  display: none;
+}
+
+#desktop {
+  display: inline;
+}
+
+/* Configures the general aesthetic for the webpage. */
+body {
+  background-image: url("images/background.gif");
+  background-color: #FCEBB6;
+  color: #221811;
+  font-family: Verdana, sans-serif;
+}
+
+/* Responsible for the appearance of the header elements in document. */
+header {
+  background-color: #D2B48C;
+  height: 150px;
+}
+
+/* Responsible for the appearance of the h1 elements in document. */
+h1 {
+  background-color: #D2B48C;
+  font-size: 3em;
+  margin: auto;
+  padding: 45px;
+  padding-left: 220px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsible for the appearance of h4 elements within document. */
+h4 {
+  background-color: #D2B48C;
+  border-bottom: 1px solid;
+  font-size: 1.2em;
+  padding-bottom: 0;
+  padding-left: .5em;
+  text-transform: uppercase;
+  clear: left;
+}
+
+/* Responsible for the nav bar's appearance. */
+nav {
+  float: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-decoration: none;
+  top-padding: 10px;
+  width: 200px;
+}
+
+/* Aids in nav bar's appearance. */
+nav a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Pseudoclass for nav bar links. */
+nav a:link {
+  color: #FEF6C2;
+}
+
+/* Pseudoclass for nav bar links. */
+nav a:visited {
+  color: #D2B48C;
+}
+
+/* Pseudoclass for when user hovers over nav bar. */
+nav a:hover {
+  color: #CC9933;
+}
+
+/* Dictates design of ul elements within nav bar area. */
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Responsible for the appearance of the main element. */
+main {
+  background-color: #FEF6C2;
+  display: block;
+  padding-bottom: 2em;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: -1em;
+  margin-left: 200px;
+}
+
+/* Targets contents within main element. */
+main h2, h3, h4, p, div, dd, dl, dt {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+/* Intended to configure the footer section's appearance. */
+footer {
+  background-color: #D2B48C;
+  border-top: 2px #221811 font-size: .60em;
+  font-style: italic;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+/* Intended to configure the form section's appearance. */
+form {
+  padding: 2em;
+}
+
+/* Intended to configure the label of the form section's appearance. */
+label {
+  display: block;
+  float: left;
+  padding-right: 1em;
+  text-align: right;
+  width: 8em;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.mySubmit {
+  margin-left: 9.5em;
+}
+
+#herojobs {
+  background-image: url("images/herojobs.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+/* Intended to configure images appearance. */
+img {
+  padding-right 10px;
+  padding-left: 10px;
+}
+
+table {
+  border-spacing: 0;
+  border-width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+td, tl {
+  padding: 10px;
+}
+
+tr:nth-of-type(even) {
+  Background-color: #D2B48E;
+}
+
+/* ID intended to configure image located at "heroroad.jpg". */
+#heroroad {
+  background-image: url("images/heroroad.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+/* ID intended to configure image located at "heromugs.jpg". */
+#heromugs {
+  background-image: url("images/heromugs.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+/* ID intended to configure image located at "heroguitar.jpg". */
+#heroguitar {
+  background-image: url("images/heroguitar.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+/* Intended to "center" webpage */
+#wrapper {
+  background-color: #231814;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  min-width: 900px;
+  padding: 0;
+  text-shadow: .25px .25px;
+}
+
+/* Intended target certain design features. */
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
+  overflow: auto;
+  text-align: center;
+}
+
+/* Created to aid in alignment, specifically main page header section*/
+.img-header {
+  background-image: url("images/javajamlogo.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px 150px;
+  display: block;
+  float: left;
+  height: 150px;
+  width: 200px;
+}
+
+/* Created to aid in alignment, specifically music page, thumbnail images*/
+.floatleft {
+  float: left;
+  padding-bottom: 2em;
+  padding-right: 2em;
+}
+
+/* Configures the general aesthetic for a tablet. */
+@media only screen and (max-width:1024px) {
+  header {
+    border-bottom: 5px solid #FEF6C2;
+  }
+
+  .img-header {
+    border-bottom: 5px solid #FEF6C2;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  nav {
+    float: none;
+    font-size: 1.3em;
+    margin: 10px;
+    padding-top: 0;
+    width: auto;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    border-style: none;
+    font-weight: bold;
+    padding: 1em;
+    width: 8em;
+  }
+
+  main {
+    margin: 0;
+    font-size: 90%;
+  }
+
+  #heroroad {
+    margin: 0;
+    padding: 0;
+  }
+
+  #heromugs {
+    background-image: url("images/heromugs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #heroguitar {
+    background-image: url("images/heroguitar.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #herojobs {
+    background-image: url("images/herojobs.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #wrapper {
+    box-shadow: none;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    width: auto;
+  }
+}
+
+/* Configures the general aesthetic for mobile. */
+@media only screen and (max-width:768px) {
+  h1 {
+    font-size: 2em;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  nav {
+    margin: 0;
+  }
+
+  nav a {
+    display: block;
+    border-bottom: 1px solid #FEF6C2;
+    padding: 0.2em;
+    width: auto;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  main {
+    padding-top: 1px;
+  }
+
+  h2 {
+    margin-right: 0.5em;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+  }
+
+  .details {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #heroroad {
+    background-image: none;
+    height: auto;
+  }
+
+  #heromugs {
+    background-image: none;
+    height: auto;
+  }
+
+  #heroguitar {
+    background-image: none;
+    height: auto;
+  }
+
+  #herojobs {
+    background-image: none;
+    height: auto;
+  }
+
+  #mobile {
+    display: inline;
+  }
+
+  #desktop {
+    display: none;
+  }
+
+  .floatleft {
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .img-header {
+    display: none;
+  }
+}

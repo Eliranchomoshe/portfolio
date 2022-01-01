@@ -1,0 +1,174 @@
+/*************************************************** General Element Selectors **************************************************/
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/***************************************************** Class & ID Selectors *****************************************************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Carousel*/
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section*/
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+/* Heading */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Icons Section*/
+.icon {
+  color: #8E05C2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #C996CC;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Testimonials */
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+#press {
+  background-color: #8E05C2;
+  padding-bottom: 3%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.testimonials-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#testimonials {
+  color: #fff;
+  background-color: #8E05C2;
+  text-align: center;
+}
+
+/* Title */
+.title-image {
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+#title {
+  background-color: #8E05C2;
+  color: #fff;
+  width: 100%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* Pricing  */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* CTA Section */
+#cta {
+  background-color: #8E05C2;
+  color: #fff;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.social {
+  margin: 20px 10px;
+}
+
+/***************************************************** Media Breakpoints ****************************************************/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

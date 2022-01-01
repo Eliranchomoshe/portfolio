@@ -1,0 +1,138 @@
+/*********************TAG Selectors*********************/
+body {
+  font-family: "Montserrat";
+
+}
+
+h1 {
+  color: #fff;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+
+}
+
+h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Montserrat";
+  padding-bottom: 10px;
+}
+
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-family: "Montserrat";
+  padding: 50px;
+}
+
+
+.stat {
+  height: 75%;
+  padding-top: 2rem;
+}
+
+.inav {
+  background-color: #ff4d4d;
+
+}
+
+#title {
+  background-color: #ff4d4d;
+
+}
+
+#features {
+  background-color: #fdb87d;
+
+}
+
+.top-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.middle-container {
+  background-color: #ff8364;
+  text-align: center;
+  padding: 50px;
+}
+
+.red-text{
+  color: #fff;
+}
+
+.hello-title {
+
+  padding-bottom: 50px;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+
+hr {
+
+  border: outset #29252c 6px;
+
+
+  margin: auto auto;
+}
+
+
+
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ff4d4d;
+
+
+}
+
+.icon:hover {
+  color: #ff8364;
+}
+
+
+.icon-text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: auto;
+}
+
+.icon-subtext {
+  line-height: 2;
+  font-size: 1rem;
+  margin: auto;
+  color: #fff;
+
+
+}
+
+.bottom-container {
+  background-color: #ff8364;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+
+.contact-me {
+  text-align: center;
+  background-color: #ff4d4d;
+}
+.contactMessage {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+margin-bottom: 50px;
+
+}
